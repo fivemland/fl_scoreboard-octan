@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    background: transparent;
+}
+
+body {
+    /* background-image: url("https://cdn.discordapp.com/attachments/1072155654556483595/1072156996649881630/image.png"); */
+    background-color: transparent;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    user-select: none;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #466a1c;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #659c27;
+}
